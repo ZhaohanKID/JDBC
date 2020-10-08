@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<c3p0-config>
+  <default-config>
+    <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/companydb?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=GMT%2B8</property>
+    <property name="user">root</property>
+    <property name="password">root</property>
+<!--  第一个参数是池子中连接对象的个数。
+      第二个参数是能连接的最大个数
+      第三个参数是超时，如果发生错误，就等三秒，结束
+  -->
+    <property name="initialPoolSize">5</property>
+    <property name="maxPoolSize">10</property>
+    <property name="checkoutTimeout">3000</property>
+  </default-config>
+
+  <named-config name="otherc3p0"> 
+  </named-config>
+</c3p0-config>

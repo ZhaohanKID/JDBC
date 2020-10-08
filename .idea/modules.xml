@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDBC.iml" filepath="$PROJECT_DIR$/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC02/JDBC02.iml" filepath="$PROJECT_DIR$/JDBC02/JDBC02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC_01/JDBC_01.iml" filepath="$PROJECT_DIR$/JDBC_01/JDBC_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC_02/JDBC_02.iml" filepath="$PROJECT_DIR$/JDBC_02/JDBC_02.iml" />
+    </modules>
+  </component>
+</project>

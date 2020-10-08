@@ -1,0 +1,14 @@
+<!ELEMENT students (student*) >
+<!ELEMENT student (name, age, sex)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ATTLIST student number ID #REQUIRED>
+<!--
+    通过ELEMENT定义标签
+    通过ATTLIST定义属性
+    定义students标签，其中包含student子标签可以出现一次或者多次
+    student标签又有三个子标签name，age，sex
+    #PCDATA 是字符串类型
+    student 有一个属性，ID，#REQUIRED表示该属性是必须得
+-->
